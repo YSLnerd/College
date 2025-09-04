@@ -1,0 +1,10 @@
+if x=1 then
+  begin
+    Memo1.Lines.Add('Знаменатель не может быть 0');
+  end
+  else
+  begin
+    f:=Power(((x+1)/(x-1)),x)+18*x*Power(y,2);
+    Memo1.Lines.Add('Значение функции: '+FloattoStr(f));
+  end;
+end;              
