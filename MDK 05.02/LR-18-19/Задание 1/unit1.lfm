@@ -1,0 +1,104 @@
+object Form1: TForm1
+  Left = 1205
+  Height = 597
+  Top = 331
+  Width = 511
+  Caption = 'Form1'
+  ClientHeight = 597
+  ClientWidth = 511
+  DesignTimePPI = 120
+  LCLVersion = '3.6.0.0'
+  object Label1: TLabel
+    Left = 34
+    Height = 25
+    Top = 50
+    Width = 203
+    Caption = 'Введите значение x'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 34
+    Height = 25
+    Top = 136
+    Width = 203
+    Caption = 'Введите значение y'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 40
+    Height = 25
+    Top = 208
+    Width = 195
+    Caption = 'Значение функции'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 266
+    Height = 28
+    Top = 56
+    Width = 152
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 266
+    Height = 28
+    Top = 136
+    Width = 152
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 265
+    Height = 32
+    Top = 536
+    Width = 152
+    Caption = 'Выход'
+    Kind = bkClose
+    ModalResult = 11
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 40
+    Height = 34
+    Top = 360
+    Width = 200
+    Caption = 'Вычислить'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 266
+    Height = 35
+    Top = 359
+    Width = 152
+    Caption = 'Очистить'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Edit3: TEdit
+    Left = 51
+    Height = 28
+    Top = 266
+    Width = 366
+    TabOrder = 5
+  end
+end
