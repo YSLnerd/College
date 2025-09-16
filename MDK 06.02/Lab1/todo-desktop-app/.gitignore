@@ -1,0 +1,9 @@
+*.db
+*.log
+.vscode/
+.idea/
+__pycache__/
+build
+dist
+venv
+todo
